@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name         露天賣場自動翻頁
 // @namespace    https://github.com/killnopig
-// @version      1.0
+// @version      1.1
 // @description  露天拍賣賣場頁捲到底自動載入下一頁，不用 iframe，速度和露天本身一樣快
 // @match        https://www.ruten.com.tw/store/*
 // @run-at       document-idle
 // @grant        none
+// @homepageURL  https://github.com/killnopig/ruten-autopager
+// @updateURL    https://raw.githubusercontent.com/killnopig/ruten-autopager/main/ruten-autopager.user.js
+// @downloadURL  https://raw.githubusercontent.com/killnopig/ruten-autopager/main/ruten-autopager.user.js
 // ==/UserScript==
 
 (function () {

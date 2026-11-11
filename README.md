@@ -20,10 +20,17 @@
 ## 安裝
 
 1. 在瀏覽器安裝 [Tampermonkey](https://www.tampermonkey.net/)
-2. 開啟 Tampermonkey 管理面板，新增腳本
-3. 將 [`ruten-autopager.user.js`](ruten-autopager.user.js) 的內容貼上並儲存
-4. 如果有裝東方永頁機，請在露天停用它，避免兩個一起翻頁
-5. 重新整理露天賣場頁面
+2. 點這個連結：[安裝腳本](https://raw.githubusercontent.com/killnopig/ruten-autopager/main/ruten-autopager.user.js)，Tampermonkey 會跳出安裝畫面，按「安裝」
+3. 如果有裝東方永頁機，請在露天停用它，避免兩個一起翻頁
+4. 重新整理露天賣場頁面
+
+用這個連結安裝的話，之後 repo 更新時 Tampermonkey 會自動更新腳本。
+
+> 之前是用「新增腳本後貼上內容」安裝的，請先刪掉舊的，再用上面的連結重新安裝，才會有自動更新。
+
+## 開發
+
+每次修改腳本都要調高開頭的 `@version`，Tampermonkey 才會偵測到更新。
 
 ## 設定
 
